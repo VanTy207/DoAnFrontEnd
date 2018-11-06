@@ -1,0 +1,200 @@
+.mobile{
+    display: none;
+}
+@media all and (max-width: 1020px){
+    .my-container{
+        width: 100%;
+    }
+    .my-container .main-menu li{
+        font-size: 14px;
+    }
+    /*slider*/
+    .slider .boxbig-s2 .banner1 .text-km{
+        padding: 0;
+    }
+    .animation .effect ul li{
+        line-height: 1.8;
+    }
+    .content .navigate .navi{
+        width:75%; 
+    }
+}
+@media all and (max-width: 991px){
+    .my-container .main-menu li{
+        font-size: 12px;
+    }
+    .slider .boxbig-s2 .banner1 .banner-km{
+        font-size: 14px;
+    }
+    .content .navigate h2{
+        width: 25%;
+        font-size: 18px;
+    }
+    .slider .boxbig-s1 .slider-img ul li{
+        font-size: 12px;
+    }
+    .main-content .list-hot .lh .image-backgroud{
+        height: 150px;
+    }
+    .animation .effect ul li{
+        font-size: 12px;
+        line-height: 1.1;
+    }
+}
+@media all and (max-width: 767px){
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+    }
+    .footerhidden{
+        display: none;
+    }
+    .accessoireshidden{
+        display: none !important;
+    }
+    .lh-hidden{
+        display: none;
+    }
+    .header-top .search{
+        width: 75%;
+    }
+    .header{
+        position: fixed;
+    }
+    .header .bar{
+        position: absolute;
+        right: 0;
+        top: 10px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #wrap-mobile{
+        height: 0 !important;
+        overflow: hidden;
+    }
+    #wrap-mobile.open{
+        height: 100% !important;
+    }
+    .main-header .main-menu li{
+        width: 50%;
+        font-size: 15px;
+    }
+    .mainslider{
+        margin-top: 55px;
+    }
+    .effect{
+        display: none;
+    }
+    .main-content .list-hot .lh .image-backgroud{
+        height: 245px;
+    }
+    .content .navigate h2{
+        width: 30%;
+    }
+    .content .main-content .navigate{
+        margin-top: 0;
+    }
+    .navi{
+        display: none !important;
+    }
+    .main-content .list-hot .lh{
+        width: 49.5%;
+        height: 375px;
+    }
+    .main-content .list-hot .lh >p{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .main-content .list-hot .lh .image-background{
+        height: 210px;
+    }
+    .main-content .list-mobile .mobile-parent{
+        width: 100%;
+    }
+    .main-content .list-mobile .mobile-child{
+        width: 33.33%;
+    }
+    .main-content .list-mobile .mobile-child >p{
+        height: 46px;
+    }
+
+    .main-content .list-laptop{
+        height: auto;
+    }
+    .main-content .list-laptop .laptop-parent{
+        width: 100%;
+    }
+    .main-content .list-laptop .laptop{
+        width: 50%;
+    }
+
+    .main-content .list-accessoires .accessoires{
+        width: 33.33%;
+    }
+    .footer .parent .footer-parent{
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer .parent .footer-parent >h4{
+        padding: 0;
+        margin: 0;
+    }
+    .footer .parent .footer-parent ul{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .parent .footer-parent ul li .social{
+        font-size: 38px;
+    }
+    
+}
+@media all and (max-width: 575px){
+    .wrap{
+        width: 100%;
+    }
+    .content .navigate h2{
+        width: 60%;
+    }
+    .main-header .main-menu li{
+        width: 100%;
+    }
+    .main-content .list-mobile .mobile-parent{
+        display: none;
+    }
+    .main-content .list-mobile .mobile-child{
+        width: 50%;
+    }
+    .main-content .list-laptop .laptop-parent .info-price, 
+    .main-content .list-laptop .laptop .info-price{
+        height: 82px;
+    }
+    .main-content .list-laptop .laptop-parent .info-price h3, 
+    .main-content .list-laptop .laptop .info-price h3{
+        font-size: 13px;
+        height: 60px;
+    }
+    .main-content .list-mobile .mobile-parent .info-price >p, 
+    .main-content .list-mobile .mobile-child .info-price >p{
+        padding: 0;
+    }
+    .main-content .list-accessoires .accessoires{
+        width: 50%;
+    }
+    .main-content .list-mobile .mobile-child >p{
+        font-size: 14px;
+        line-height: 1.3;
+        height: 70px;
+    }
+    .main-content .list-laptop .laptop >p{
+        height: 60px;
+    }
+    .footer .parent .footer-parent ul li .social{
+        font-size: 32px;
+    }
+}

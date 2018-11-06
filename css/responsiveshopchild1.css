@@ -1,0 +1,117 @@
+.mobile{
+    display: none;
+}
+@media all and (max-width: 1020px){
+    .my-container{
+        width: 100%;
+    }
+    .my-container .main-menu li{
+        font-size: 14px;
+    }
+    /*slider*/
+    .animation .effect ul li{
+        line-height: 1.4;
+    }
+}
+@media all and (max-width: 991px){
+    .my-container .main-menu li{
+        font-size: 12px;
+    }
+    .slider .boxbig-s2 .banner1 .banner-km{
+        font-size: 14px;
+    }
+    .animation .effect ul li{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}
+@media all and (max-width: 767px){
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+    }
+    .footerhidden{
+        display: none;
+    }
+    .header-top .search{
+        width: 75%;
+    }
+    .header{
+        position: fixed;
+    }
+    .header .bar{
+        position: absolute;
+        right: 0;
+        top: 10px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .manufacturer .scrollmenu a{
+        padding: 0;
+    }
+    #wrap-mobile{
+        height: 0 !important;
+        overflow: hidden;
+    }
+    #wrap-mobile.open{
+        height: 100% !important;
+    }
+    .main-header .main-menu li{
+        width: 50%;
+        font-size: 15px;
+    }
+    .slider .my-slider{
+        margin-top: 57px;
+    }
+    .effect{
+        display: none;
+    }
+    #lhshow{
+        display: block !important;
+    }
+
+    /*naviagate*/
+    .navigate .filter >h3{
+        padding: 5px;
+        margin: 0;
+        font-size: 15px;
+        display: block;
+    }
+
+
+    .list-content .wrap-list .row1 .lh,
+    .list-content .wrap-list .row2 .lh,
+    .list-content .wrap-list .row3 .lh{
+        width: 49.5%;
+    }
+
+    .footer .parent .footer-parent{
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer .parent .footer-parent >h4{
+        padding: 0;
+        margin: 0;
+    }
+    .footer .parent .footer-parent ul{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .parent .footer-parent ul li .social{
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 575px){
+    .list-content .wrap-list .row1 .lh,
+    .list-content .wrap-list .row2 .lh,
+    .list-content .wrap-list .row3 .lh{
+        width: 49.5%;
+    }
+
+}
